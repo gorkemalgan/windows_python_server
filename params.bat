@@ -1,0 +1,6 @@
+set mainfolder=location_of_project_folder
+set mainrelative=main_file_location_related_path_to_mainfolder
+
+set anacondafolder=C:\ProgramData\Anaconda3
+set anacondaactivate=C:\ProgramData\Anaconda3\Scripts\activate.bat
+set condaenv=anaconda_environment_name_to_be_used
