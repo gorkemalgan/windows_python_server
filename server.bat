@@ -60,7 +60,7 @@ if %runflag% equ 1 (
 	echo. >> %logfile%
 	echo ******************************************************%condaenv%****************************************************** >> %logfile%
 	echo Activating conda environment base and sending email >> %logfile%
-	(echo python %mailfilepy% %logfile%) | %windir%\System32\cmd.exe /K %anacondaactivate% %anacondafolder%
+	(echo python %mailfilepy% %logfile% mail\) | %windir%\System32\cmd.exe /K %anacondaactivate% %anacondafolder%
 	echo. >> %logfile%
 ) else (
 	echo Sending mail for no change >> %logfile%
